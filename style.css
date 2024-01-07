@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Exo2-Light';
+    src: url('./Exo2-Light.otf') format('opentype');
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+}
+
+.container {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: #0FF;
+    font-family: 'Exo2-Light';
+    font-size: clamp(1rem, 3vw, 5rem);
+    display: inline-block;
+    width: 1em; /* Set a fixed width */
+    text-align: center; /* Center the text horizontally */
+    height: 1em; /* Set a fixed height to create a square */
+    line-height: 1em; /* Center the text vertically */
+}
+
+h1{
+    color: #0FF;
+    font-family: 'Exo2-Light';
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+p{
+    color: #0FF;
+    font-family: 'Exo2-Light';
+    font-size: clamp(0.75rem, 3vw, 1rem);
+}
+
+
+body {
+    font-family: sans-serif;
+  }
+  #simple-cookie-consent {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    resize: vertical;
+    overflow: auto;
+    z-index: 999999999;
+    background: #CCC;
+  }
+  #simple-cookie-consent .cookie-consent-container {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    margin: -100px auto 0;
+    background: #fff;
+    padding: 20px;
+    max-width: 500px;
+  }
+  #simple-cookie-consent .cookie-consent-selection {
+    text-align: right;
+  }
+  #simple-cookie-consent button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0 0 10px;
+    background: none;
+    font-size: 1.1em;
+  }
+  #simple-cookie-consent button.cookie-consent-allow {
+    background-color: #04aa6d;
+    color: #fff;
+  }
+  #simple-cookie-consent button.cookie-consent-allow:focus,
+  #simple-cookie-consent button.cookie-consent-allow:hover {
+    background-color: #059862;
+    cursor: pointer;
+  }
+  #simple-cookie-consent button.cookie-consent-deny {
+    padding: 5px 0;
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+  #simple-cookie-consent button.cookie-consent-deny:focus,
+  button.cookie-consent-deny:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  #simple-cookie-consent hr {
+    margin: 15px 0;
+  }
+
+  
+#pcook{
+    color: #AAA;
+}
